@@ -9,4 +9,7 @@ void main()
   else{
     print("child");
   }
+  print("------New If else-------------");
+  bool isChecked=false;
+  !isChecked?print("Checked"):print("Not Checked");
 }
