@@ -14,6 +14,7 @@ void main()
   print("------New If else-------------");
   bool isChecked=false;
   !isChecked?print("Checked"):print("Not Checked");
+  print("------Else If-------------");
   int year=stdin.readByteSync();
   if(year%400==0){
     print("Leap year");
