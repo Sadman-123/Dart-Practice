@@ -3,6 +3,7 @@ import 'constructors.dart';
 import 'constructors_parameter.dart';
 import 'abstractions.dart';
 import 'encapsulations.dart';
+import 'getter_setter.dart';
 class Objects implements Abstractions{
   @override
   void speak() {
@@ -21,4 +22,9 @@ void main() {
   e.SetPass("mahee123");
   print(e.getPass());
   e.dummy();
+  GetterSetter g=new GetterSetter();
+  g.pass="mahee121212";
+  g.HouseNo=124;
+  print(g.pass);
+  print(g.HouseNo);
 }
