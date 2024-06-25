@@ -4,6 +4,7 @@ import 'constructors_parameter.dart';
 import 'abstractions.dart';
 import 'encapsulations.dart';
 import 'getter_setter.dart';
+import 'statics.dart';
 class Objects implements Abstractions{
   @override
   void speak() {
@@ -27,4 +28,11 @@ void main() {
   g.HouseNo=124;
   print(g.pass);
   print(g.HouseNo);
+  Statics s1=new Statics();
+  Statics s2=new Statics();
+  Statics s3=new Statics();
+  Statics s4=new Statics();
+  Statics s5=new Statics();
+  Statics.rootApp();
+  print("Total Statics Created ${Statics.ctr}");
 }
